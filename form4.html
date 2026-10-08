@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>User Registration</title>
+</head>
+<body bgcolor="#ffffff">
+
+    <h2 align="center">User Registration</h2>
+
+    <form action="/register" method="post">
+        <table border="0" align="center" cellpadding="6" cellspacing="0">
+        <tr>
+            <td align="right"><label for="fname">First Name:</label></td>
+            <td><input type="text" id="fname" name="fname" required</td>
+        </tr>
+        <tr>
+          <td align="right"><label for="lname">Last Name:</label></td>
+          <td><input type="text" id="lname" name="lname" required</td>  
+        </tr>
+        <tr>
+           <td align="right"><label for="email2">Email:</label></td>
+           <td><input type="email" id="email2" name="email2" required</td>   
+        </tr>
+        <tr>
+            <td align="right"><label for="pwd2">Password:</label></td>
+            <td><input type="password" id="pwd2" name="pwd2" required</td>  
+        </tr>
+        <tr>
+            <td align="right"><label for="country2">Country:</label></td>
+            <td>
+                <select id="country2" name="country">
+                    <option value="sp">Spain</option>
+                    <option value="ar">Argentina</option>
+                    <option value="pr">Portugal</option> 
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td align="right" align="top"><label for="bio">Short Bio:</label></td>
+          <td><textarea id="bio" name="bio" rows="7" cols="30"></textarea></td>  
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Register">
+                <input type="reset" value="Clear"
+            </td>
+        </tr>
+    </table>
+    </form>
+    
+</body>
+</html>

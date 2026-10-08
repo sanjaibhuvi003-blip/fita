@@ -1,0 +1,137 @@
+.header
+{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    font-variant: small-caps;
+    
+}
+.field
+{
+    box-sizing: content-box;
+    min-height: 20px;
+    padding: 15px;
+}
+.h2
+{
+    color: purple;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.row{
+    padding: 5px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.field
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+    margin-bottom: 30px;
+}
+.form-group{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.form-group label{
+    width: 120px;
+    font-size: 18px;
+}
+.form-group input{
+    width: 120px;
+    height: 35px;
+    box-sizing: border-box;
+}
+.form-content{
+    width: 90px;
+    margin: 50px auto;
+}
+.form-row{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+.form-row >label{
+    width: 140px;
+}
+.form-row input{
+    width: 270px;
+    height: 50px;
+    border: 2px solid #999;
+    padding: 10px;
+    font-size: 16px;
+}
+.two-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+.field{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.field label{
+    width: 120px;
+}
+.field input{
+    flex: 1;
+    width: auto;
+}
+.h2{
+    font-size: 20px;
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
+.question{
+    font-size: 17px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.options{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 35px;
+}
+.options label{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 17px;
+}
+.options input[type="radio"]{
+    width: 20px;
+    height: 20px;
+}
+.options .other{
+    width: 200px;
+    height: 40px;
+    border: 2px solid #999;
+}
+
+.details-label{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+textarea{
+    width: 100px;
+    height: 110px;
+    border: 2px solid #999;
+    padding: 10px;
+    resize: none;
+}
+
+.approval{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+.signature-box{
+    height: 130px;
+    border: 2px solid #999;
+}
